@@ -12,11 +12,12 @@ int main()
         n=n/2;    
     }    
     
-    printf("\nBinary of Given Number is: \n");    
+    printf("\nBinary of Given Number is: ");    
     for(i=i-1;i>=0;i--)    
     {    
         printf("%d",a[i]);    
     }    
+    printf("\n");
     
     return 0;  
 }  
